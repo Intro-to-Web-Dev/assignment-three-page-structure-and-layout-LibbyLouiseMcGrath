@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Libby McGrath-->
+
+    <head>
+        
+        <title>Desktop Plants</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="plants">
+        <meta name="keywords" content="plants care guide">
+        <meta name="author" content="Libby McGrath">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        
+        
+    
+       
+       <style>
+           
+            #container{
+                display: grid;
+                grid-template-columns: repeat (4, 1fr);
+                grid-template-rows: repeat (4, 75px);
+                width: 100vw;
+                height: 100vh;
+                background-color:pink;          
+                }
+            
+            h1{
+                grid-column-start: 3;
+                grid-row: 1;
+                color: white;
+                padding-left: 430px;
+                }
+
+            h2{
+                text-align: center;
+                }
+            
+            p{
+                text-align: left;
+                padding-left: 10px;
+                }
+           
+            main{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row:2;
+                }
+            
+            footer{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row: 4;
+                padding-top: 0px;
+                }
+           
+            img{
+                display: block;
+                width: 18%;
+                align-content: flex-start;
+                }
+            
+            #flexcontainer{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                background-image: url(img/background1.jpg);
+                background-position: center;
+                background-size: 100%;
+                }
+           
+            #flexcontainer aside{
+                flex-grow: 0;
+                flex-shrink: 1;
+                flex-basis: 300px;
+                height: 1500px;
+                padding: 0px;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-right: 8%;
+                margin-left: 0;
+                background-color:white;
+                opacity: 60%;
+                }
+            
+            #information{
+                display:flex;
+                flex-wrap: wrap;
+                max-width: 1000px;
+                align-content: left;
+                
+                
+                }
+            
+           #copyright{
+                text-align: center;
+                width: 100%;
+                height:100px;
+                margin: auto;
+                color:white;
+                background-color: pink;
+                padding-top: 50px;
+                } 
+
+            #information img{
+                width:40%;
+                height:50%;
+                padding-top:4px;
+                padding-bottom: 4px;
+                padding-left: 4px;
+                padding-right: 4px;
+                }
+            
+       
+         </style>
+    
+</head>
+    <body>
+        <div id="container">
+            <header>
+                <img src="img/logo.jpg" alt="Logo"> 
+                <h1>Beginners Guide to House Plants</h1>
+            </header>
+            
+            <main id="flexcontainer">
+                <aside>
+                    <h2>About</h2>
+                    
+                    <h2>Guide</h2>
+                    
+                    <h2>Plants</h2>
+                 </aside>
+                
+                 <div id="information">
+                   
+                        <img src="img/aloe.jpg" alt="aloe">
+                        <img src="img/pothos.jpg" alt="pothos">
+                        <img src="img/monstera.jpg" alt="monstera">
+                        <img src="img/snakeplant.jpg" alt="snakeplant">
+                       
+                   </div>
+                
+                   
+                
+            </main>
+            <footer>
+                <div id="copyright"> &#169;  2020 Libby McGrath lmcg1501@gmail.com</div>
+            </footer>
+        </div>
+    </body>
+</html>

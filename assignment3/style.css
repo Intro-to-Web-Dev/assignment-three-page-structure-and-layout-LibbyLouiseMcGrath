@@ -1,0 +1,39 @@
+/*----requirement 2----
+1. for my sites color scheme I wanted something soft, approachable and friendly but still fun. I have always liked the color combination of pink and green and thought it would suit the plant content and the mood I was going for.
+2. pink #FFC0CB 
+   white #FFFFFF
+   black #000000
+   green #006400
+3. I will be using the pink for both the header and footer. White for page title and footer content. Black for body copy and green in the logo and for any other accents added. 
+*/
+/*----requirement 3----
+1. I am using Franklng Gothic in Medium for all of my copy to keep it simple and clean and a little bit classy. I will use different weights and sizes. 
+
+2. body copy: regular, 12pt
+   h1:bold, 24pt
+   h2:bold, 18pt
+   h3:bold, 12pt
+
+3. Letter and word spacing are normal. */
+
+h1 h2 h3 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+h1 {font-family:'Franklin Gothic Medium';
+   font-size: 24pt;
+}
+
+h2{font-family:'Franklin Gothic Medium';
+   font-style: bold;
+   font-size: 18pt;
+}
+
+h3{font-family: 'Franklin Gothic Medium';
+   font-size: 12pt;
+}
+
+p{font-family: 'Franklin Gothic';
+   font-size:12pt;
+}
+
+
+
